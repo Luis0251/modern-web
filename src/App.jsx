@@ -1,7 +1,10 @@
-
+import {Blog,Feature,Footer,Header,Possibility,WhatGpt3} from './components'
+import {Cta, Brand, Navbar} from './containers'
 function App() {
   return (
-      <div>GPT-3</div>
+      <div>
+        Holam mundo
+      </div>
   )
 }
 
