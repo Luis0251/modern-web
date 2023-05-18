@@ -1,4 +1,4 @@
-export {Blog} from './blog/Blog'
+export {Blog} from './blog/Blog.jsx'
 export {Feature} from './features/Feature'
 export {Footer} from './footer/Footer'
 export {Header} from './header/Header'
