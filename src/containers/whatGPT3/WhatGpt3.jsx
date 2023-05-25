@@ -9,7 +9,7 @@ export const WhatGpt3 = () => {
     {title:"Education",text:"At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b"},
   ]
   return (
-    <div className="gpt3__whatgpt3 section__margin" id='wpt3'>
+    <div className="gpt3__whatgpt3 section__margin" id='wgpt3'>
        <div className="gpt3__whatgpt3-feature">
         <Feature content={content[0]}/>
        </div>
@@ -19,7 +19,7 @@ export const WhatGpt3 = () => {
        </div>
        <div className='gpt3__whatgpt3-container'>
        {content.slice(1).map((item,index)=>(
-        <Feature key={index} content={item}/>
+        <Feature key={index} title={item.title} text={item.text}/>
        ))}
        </div>
     </div>
