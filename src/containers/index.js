@@ -1,5 +1,5 @@
 export {Blog} from './blog/Blog.jsx'
-export {Feature} from './features/Feature'
+export {Features} from './features/Features.jsx'
 export {Footer} from './footer/Footer'
 export {Header} from './header/Header'
 export {Possibility} from './possibility/Possibility'
